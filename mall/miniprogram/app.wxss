@@ -1,0 +1,28 @@
+/* 引入iconfont */
+@import "./style/iconfont.wxss";
+
+/* app.wxss */
+/* 不支持通配符'*' */
+/* 快捷键 p0+m0+bs*/
+page,view,text,swiper,swiper-item,image,navigator{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* 
+  主题颜色 通过变量实现
+  1 less中存在变量
+  2 原生css和wxss也支持变量
+*/
+
+page{
+  /* 定义主题颜色 */
+  --themeColor: #0d800b;
+  /* 定义统一字体大小  假设设计稿大小是375px
+     1px = 2rpx
+     14px = 28rpx  
+  */
+  font-size: 28rpx;
+}
+
