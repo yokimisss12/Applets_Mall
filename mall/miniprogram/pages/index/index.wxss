@@ -1,0 +1,22 @@
+.index_swiper_home swiper {
+  width: 750rpx;
+  height: 340rpx;
+}
+.index_swiper_home swiper navigator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index_swiper_home swiper image {
+  width: 40%;
+}
+.index_head {
+  display: flex;
+}
+.index_head navigator {
+  padding: 20rpx;
+  flex: 1;
+}
+.index_head navigator image {
+  width: 100%;
+}
